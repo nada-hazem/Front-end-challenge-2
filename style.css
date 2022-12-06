@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Outfit:wght@300;400;600&display=swap");
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  background-color: hsl(204, 43%, 93%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+main {
+  background-color: #fff;
+  max-width: 800px;
+  margin: auto;
+  display: grid;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.item1 {
+  padding: 35px;
+  line-height: 30px;
+}
+
+.p1 {
+  opacity: 0.4;
+}
+
+.p2 {
+  opacity: 0.4;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+.Firsth3 {
+  color: hsl(71, 73%, 54%);
+}
+.item2 {
+  background-color: hsl(179, 62%, 43%);
+  padding: 35px;
+  color: #fff;
+}
+.sech3 {
+  line-height: 50px;
+}
+.item3 {
+  background-color: hsl(179, 47%, 52%);
+  padding: 35px;
+  color: #fff;
+}
+
+.thirdh3 {
+  line-height: 50px;
+}
+
+p {
+  font-size: 15px;
+}
+p.Month span {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 10px;
+}
+p.Month {
+  color: rgb(169, 226, 225);
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  width: 100%;
+  border-color: hsl(71, 73%, 54%);
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+}
+.fade {
+  opacity: 0.6;
+}
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
