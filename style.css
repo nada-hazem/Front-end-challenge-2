@@ -67,7 +67,7 @@ p {
   font-size: 15px;
 }
 p.Month span {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: #fff;
   margin-right: 10px;
@@ -102,4 +102,10 @@ button {
   .row {
     flex-direction: column;
   }
+}
+
+
+
+h2 {
+  font-size: 15px;
 }
